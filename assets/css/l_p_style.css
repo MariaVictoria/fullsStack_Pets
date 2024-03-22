@@ -1,0 +1,63 @@
+/*# id*/
+/* . */
+/* styles.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+body header footer{
+    width: 100%;
+}
+
+body {
+    background-color: #fff;
+    box-shadow: 0 0 9cap rgba(76, 149, 129, 0.826);
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color: #9dcd9e;
+    box-shadow: 0 0 9cap rgba(30, 81, 67, 0.826);
+    color: rgb(231, 226, 226);
+    padding: 20px;
+}
+header .foto{
+    margin-top: 2%;
+}
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.cta-container {
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 5%;
+ }
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #81a182;
+    box-shadow: 0 0 9cap rgba(86, 225, 185, 0.826);
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    background-color: #a2b4acad;
+    color: rgb(2, 28, 21);
+    margin-bottom: 3%;
+}
