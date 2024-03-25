@@ -8,7 +8,7 @@ app = Flask(__name__)
 current_dir = os.path.dirname(__file__)
 
 # Configuración de la base de datos
-DATABASE = os.path.join(current_dir, 'formulario_data.db')
+DATABASE = os.path.join(current_dir, 'formulario_pets.db')
 
 # Función para conectar a la base de datos
 def connect_db():
