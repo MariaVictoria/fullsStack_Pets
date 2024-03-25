@@ -1,11 +1,3 @@
-/**
-* Template Name: PhotoFolio
-* Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
@@ -172,4 +164,11 @@ document.addEventListener('DOMContentLoaded', () => {
     aos_init();
   });
 
+  // Escuchar el evento submit del formulario
+  document.querySelector('.php-email-form').addEventListener('submit', function(event) {
+    // Mostrar el mensaje de "Cargando"
+    document.querySelector('.loading').style.display = 'block';
+    // Ocultar el mensaje de "Mensaje enviado"
+    document.querySelector('.sent-message').style.display = 'none';
+  });
 });
