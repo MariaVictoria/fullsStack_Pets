@@ -1,0 +1,5 @@
+para poder ejecutar :
+
+ejecutar 
+
+pip freeze > requirements.txt

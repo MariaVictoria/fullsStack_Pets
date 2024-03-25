@@ -164,11 +164,14 @@ document.addEventListener('DOMContentLoaded', () => {
     aos_init();
   });
 
-  // Escuchar el evento submit del formulario
-  document.querySelector('.php-email-form').addEventListener('submit', function(event) {
-    // Mostrar el mensaje de "Cargando"
-    document.querySelector('.loading').style.display = 'block';
-    // Ocultar el mensaje de "Mensaje enviado"
-    document.querySelector('.sent-message').style.display = 'none';
-  });
+// Escuchar el evento submit del formulario
+document.querySelector('.php-email-form').addEventListener('submit', function(event) {
+  // Mostrar el mensaje de "Cargando"
+  document.querySelector('.loading').style.display = 'block';
+  // Ocultar el mensaje de "Mensaje enviado"
+  document.querySelector('.sent-message').style.display = 'none';
+  // Ocultar el botón "Enviar Mensaje"
+  document.querySelector('button[type="submit"]').style.display = 'none';
+});
+
 });
